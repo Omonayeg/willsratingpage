@@ -100,7 +100,7 @@ button:hover {
 }
 .container {
     width: 300px;
-    margin: 13% auto 1%;
+    margin: 10% auto 1%;
     position: relative;
     background-color:hsl(220, 14%, 12%);
     border-radius: 20px;
@@ -109,13 +109,13 @@ button:hover {
     line-height: 1.2;
 }
 
-/* @media only screen and (max-width: 1445px) {
+ @media only screen and (max-width: 750px) {
     .container {
-        width: 220px;
-        padding: 1rem;
+        margin-top: 32%;
+        width: 285px;
         
     }
-} */
+} 
 .selected {
     font-size: 14px;
     border-radius: 21px;
