@@ -111,7 +111,7 @@ button:hover {
 
  @media only screen and (max-width: 750px) {
     .container {
-        margin-top: 32%;
+        margin-top: 25%;
         width: 285px;
         
     }
