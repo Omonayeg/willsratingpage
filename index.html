@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://fonts.google.com/specimen/Overpass">
+  
+  <title>Frontend Mentor | Interactive rating component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+ 
+</head>
+<body>
+
+  <div class="container card">
+    <div class="star-con">
+    <img class="star" src="images/icon-star.svg" alt="star-icon">
+  </div>
+<h2>How did we do?</h2>
+<p>  Please let us know how we did with your support request. All feedback is appreciated 
+  to help us improve our offering! 
+</p>
+<div class="rating" >
+
+  <input type="radio" class="radio-input" name="rating" id="one" value="1"> 
+  <input type="radio" class="radio-input" name="rating" id="two" value="2"> 
+  <input type="radio" class="radio-input" name="rating" id="three" value="3">
+  <input type="radio" class="radio-input" name="rating" id="four" value="4">
+  <input type="radio" class="radio-input" name="rating" id="five" value="5">
+
+  <label for="one" class="rating-btn option1"> 
+  <span>1</span>
+</label>
+
+  <label for="two" class="rating-btn option2"> 
+  <span>2</span>
+</label>
+ 
+  <label for="three" class="rating-btn option3
+"> 
+  <span>3</span>
+</label>
+
+  <label for="four" class="rating-btn option4
+"> 
+  <span>4</span>
+</label>
+
+
+  <label for="five" class="rating-btn option5
+"> 
+  <span>5</span>
+</label>
+
+</div>
+
+
+<button>SUBMIT</button></a>
+
+  </div>
+
+  <div class="container card-2 hide">
+    <img class="thanks" src="images/illustration-thank-you.svg" alt="thank-you">
+    <div class="rate-container">
+    <span class="selected">Feedback recieved.</span>
+    
+    <h2 class="thanks-head">Thank you!</h2>
+    <p> We appreciate you taking the time to give a rating. If you ever need more support, 
+        don’t hesitate to get in touch!
+      </p>
+    </div>
+            </div>
+
+ 
+  <!-- Rating state start -->
+
+  <!-- How did we do?
+
+  Please let us know how we did with your support request. All feedback is appreciated 
+  to help us improve our offering!
+
+  1 2 3 4 5
+
+  Submit -->
+
+  <!-- Rating state end -->
+
+  <!-- Thank you state start -->
+
+  <!-- You selected Add rating here out of 5
+
+  Thank you!
+
+  We appreciate you taking the time to give a rating. If you ever need more support, 
+  don’t hesitate to get in touch! -->
+
+  <!-- Thank you state end -->
+
+  
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Will Omonaye</a>.
+  </div>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+  <script src="index.js"></script>
+</body>
+</html>
