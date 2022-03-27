@@ -100,7 +100,7 @@ button:hover {
 }
 .container {
     width: 300px;
-    margin: 10% auto 1%;
+    margin: 15% auto 1%;
     position: relative;
     background-color:hsl(220, 14%, 12%);
     border-radius: 20px;
