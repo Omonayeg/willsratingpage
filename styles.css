@@ -100,7 +100,7 @@ button:hover {
 }
 .container {
     width: 300px;
-    margin: 15% auto 1%;
+    margin: 13% auto 1%;
     position: relative;
     background-color:hsl(220, 14%, 12%);
     border-radius: 20px;
@@ -138,6 +138,6 @@ button:hover {
 
 .attribution { font-size: 11px; 
     text-align: center;
-    margin: 3% auto;
+    margin: 2% auto;
 }
 .attribution a { color: hsl(25, 97%, 53%); }
