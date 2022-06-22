@@ -1,5 +1,7 @@
 # Frontend Mentor - Interactive rating component
 
+Live Link; https://omonayeg.github.io/willsratingpage/
+
 ![Design preview for the Interactive rating component coding challenge](./design/desktop-preview.jpg)
 
 ## Welcome! 👋
